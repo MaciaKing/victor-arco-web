@@ -299,17 +299,17 @@ footer {
     color: rgba(255, 255, 255, 0.65);
 }
 
-@media (max-width:768px) {
-
-    .instagram-grid {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-
-}
 
 /* Mobile */
 @media (max-width: 768px) {
+
+    @media (max-width: 768px) {
+    .instagram-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 12px;
+    }
+}
     .navbar-brand {
         top: 0px;
         transform: none;
