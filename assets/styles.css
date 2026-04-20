@@ -229,6 +229,33 @@ footer {
     transform: translateX(3px);
 }
 
+
+.instagram-wrapper{
+    max-width:350px;
+    width:100%;
+    padding-bottom:20px;
+}
+
+.instagram-media{
+    margin:0 !important;
+}
+
+.texto-pni{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+
+@media (max-width:768px) {
+
+    .instagram-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+}
+
 /* Mobile */
 @media (max-width: 768px) {
     .navbar-brand {
