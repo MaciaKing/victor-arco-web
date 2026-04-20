@@ -238,9 +238,10 @@ footer {
     margin: 0 !important;
 }
 
-.row.align-items-stretch > div{
-    display:flex;
+.row.align-items-stretch>div {
+    display: flex;
 }
+
 .texto-pni {
     display: flex;
     flex-direction: column;
@@ -248,6 +249,55 @@ footer {
     justify-content: space-between;
 }
 
+.footer-clinica {
+    background: #343a40;
+    /* gris oscuro elegante */
+}
+
+.footer-title {
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    color: #ffffff;
+}
+
+.footer-subtitle {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.6;
+    max-width: 420px;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    transition: all .2s ease;
+}
+
+.footer-link:hover {
+    color: #CFE8E4;
+    transform: translateX(3px);
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.65);
+}
 
 @media (max-width:768px) {
 
