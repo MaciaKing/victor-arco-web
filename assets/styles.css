@@ -229,21 +229,23 @@ footer {
     transform: translateX(3px);
 }
 
-
-.instagram-wrapper{
-    max-width:350px;
-    width:100%;
-    padding-bottom:20px;
+.instagram-wrapper {
+    max-width: 290px;
+    margin: auto;
 }
 
-.instagram-media{
-    margin:0 !important;
+.instagram-media {
+    margin: 0 !important;
 }
 
-.texto-pni{
+.row.align-items-stretch > div{
     display:flex;
-    flex-direction:column;
-    justify-content:space-between;
+}
+.texto-pni {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    justify-content: space-between;
 }
 
 
