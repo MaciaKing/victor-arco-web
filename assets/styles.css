@@ -242,12 +242,12 @@ footer {
     display: flex;
 }
 
-.card-apertura{
+.card-apertura {
     background: #f7f7f7;
     padding: 26px 36px;
     border-radius: 20px;
-    box-shadow: 0 4px 18px rgba(0,0,0,0.035);
-    border: 1px solid rgba(0,0,0,0.05);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.035);
+    border: 1px solid rgba(0, 0, 0, 0.05);
     user-select: none;
     pointer-events: none;
     max-width: 980px;
@@ -496,7 +496,26 @@ footer {
 
 .proceso-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 12px 30px rgba(0,0,0,0.08) !important;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08) !important;
+}
+
+@media (min-width: 769px) {
+
+    .footer-clinica .row {
+        justify-content: center !important;
+        column-gap: 48px;
+    }
+
+    .footer-clinica .col-lg-5 {
+        flex: 0 0 42%;
+        max-width: 42%;
+    }
+
+    .footer-clinica .col-lg-4 {
+        flex: 0 0 28%;
+        max-width: 28%;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -625,5 +644,31 @@ footer {
         padding: 14px 20px;
         font-size: 1.1rem;
         border-radius: 12px;
+    }
+
+
+    .footer-clinica {
+        text-align: center;
+    }
+
+    .footer-clinica .row {
+        justify-content: center !important;
+    }
+
+    .footer-clinica .col-lg-5,
+    .footer-clinica .col-lg-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-link {
+        justify-content: center;
     }
 }
