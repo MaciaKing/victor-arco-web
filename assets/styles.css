@@ -470,6 +470,20 @@ footer {
     line-height: 1.5;
 }
 
+.bloque-texto-pni {
+    padding: 3rem;
+    border-radius: 24px;
+}
+
+@media (max-width: 768px) {
+
+    .bloque-texto-pni {
+        padding: 2rem 1.5rem;
+        border-radius: 18px;
+    }
+
+}
+
 /* Solo el texto descriptivo justificado */
 .proceso-card .text-muted.mb-0 {
     text-align: justify;
