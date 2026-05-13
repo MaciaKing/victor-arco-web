@@ -447,6 +447,44 @@ footer {
     letter-spacing: 0.2px;
 }
 
+.proceso-card .card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.proceso-card h3,
+.proceso-card .h2,
+.proceso-card .text-muted.mb-3 {
+    text-align: center;
+}
+
+/* Subtítulo en negrita centrado */
+.proceso-card .fw-semibold {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem !important;
+
+    font-size: 0.92rem;
+    letter-spacing: 0.2px;
+    line-height: 1.5;
+}
+
+/* Solo el texto descriptivo justificado */
+.proceso-card .text-muted.mb-0 {
+    text-align: justify;
+    line-height: 1.75;
+}
+
+.proceso-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.proceso-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08) !important;
+}
+
 @media (max-width: 768px) {
     .texto-reflexion {
         padding: 0 1rem;
