@@ -242,6 +242,19 @@ footer {
     display: flex;
 }
 
+.card-apertura{
+    background: #f7f7f7;
+    padding: 26px 36px;
+    border-radius: 20px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.035);
+    border: 1px solid rgba(0,0,0,0.05);
+    user-select: none;
+    pointer-events: none;
+    max-width: 980px;
+    margin: 28px auto 0 auto;
+    text-align: center;
+}
+
 .texto-pni {
     display: flex;
     flex-direction: column;
